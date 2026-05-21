@@ -1,0 +1,21 @@
+{
+    "main_dt_set": [],
+    "irq_dt_set": [
+        {
+            "irq_pc": 12408,
+            "avail_pc": 108490,
+            "buffer_len": 128,
+            "buffer_min_len": 1
+        }
+    ],
+    "avail_dt_dict": {
+        "108490": {
+            "irq_pc": 12408,
+            "avail_pc": 108490,
+            "buffer_len": 128,
+            "buffer_min_len": 1
+        }
+    },
+    "consume_dt_dict": {
+    }
+}

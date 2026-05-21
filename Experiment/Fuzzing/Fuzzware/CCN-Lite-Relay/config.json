@@ -1,0 +1,45 @@
+{
+    "main_dt_set": [],
+    "irq_dt_set": [
+        {
+            "irq_pc": 77532,
+            "avail_pc": 78472,
+            "buffer_len": 64,
+            "buffer_min_len": 1
+        },
+        {
+            "irq_pc": 70676,
+            "avail_pc": 3896,
+            "buffer_len": 64,
+            "buffer_min_len": 1
+        },
+        {
+            "irq_pc": 70688,
+            "avail_pc": 27728,
+            "buffer_len": 64,
+            "buffer_min_len": 1
+        }
+    ],
+    "avail_dt_dict": {
+        "78472": {
+            "irq_pc": 77532,
+            "avail_pc": 78472,
+            "buffer_len": 64,
+            "buffer_min_len": 1
+        },
+        "3896": {
+            "irq_pc": 70676,
+            "avail_pc": 3896,
+            "buffer_len": 64,
+            "buffer_min_len": 1
+        },
+        "27728": {
+            "irq_pc": 70688,
+            "avail_pc": 27728,
+            "buffer_len": 64,
+            "buffer_min_len": 1
+        }
+    },
+    "consume_dt_dict": {
+    }
+}

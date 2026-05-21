@@ -1,0 +1,157 @@
+{
+    "main_dt_set": [
+        {
+            "dr": 1074786388,
+            "callread_pc": 7948,
+            "read_pc": 7950,
+            "buffer_addr": null,
+            "consume_pc_set": [],
+            "irq_pc": null,
+            "avail_pc": 7948,
+            "rx_head": null,
+            "rx_tail": null,
+            "buffer_len": 0,
+            "buffer_min_len": null,
+            "consume_count": 0
+        },
+        {
+            "dr": 1074786580,
+            "callread_pc": 7950,
+            "read_pc": 7950,
+            "buffer_addr": null,
+            "consume_pc_set": [],
+            "irq_pc": null,
+            "avail_pc": 7950,
+            "rx_head": null,
+            "rx_tail": null,
+            "buffer_len": 0,
+            "buffer_min_len": null,
+            "consume_count": 0
+        }
+    ],
+    "irq_dt_set": [
+        {
+            "dr": 1074176007,
+            "callread_pc": 8986,
+            "read_pc": 8948,
+            "buffer_addr": 536806776,
+            "consume_pc_set": [
+                "0x2d7c"
+            ],
+            "irq_pc": 5748,
+            "avail_pc": 8960,
+            "rx_head": 536805908,
+            "rx_tail": 536805904,
+            "buffer_len": 64,
+            "buffer_min_len": 1,
+            "consume_count": 0
+        }
+    ],
+    "dt_created_dr": [
+        1074786388,
+        1074786580,
+        1074176007
+    ],
+    "blacklist": [],
+    "indirect_src_addrs": {},
+    "data_regs": [
+        1074786304,
+        1074786560,
+        1074786432,
+        1074159620,
+        1074163716,
+        1074683908,
+        1074176007,
+        1074180103,
+        1074184199,
+        1074188295,
+        1074700295,
+        1074704391,
+        1074786576,
+        1073983504,
+        1074507792,
+        1074786320,
+        1073983508,
+        1074507796,
+        1074786324,
+        1074786448,
+        1074786452,
+        1074786580,
+        1073922100,
+        1073926196,
+        1074446388,
+        1073922104,
+        1073926200,
+        1074446392,
+        1074786368,
+        1074786496,
+        1074786384,
+        1074786512,
+        1074786388,
+        1074786516
+    ],
+    "avail_dt_dict": {
+        "8960": {
+            "dr": 1074176007,
+            "callread_pc": 8986,
+            "read_pc": 8948,
+            "buffer_addr": 536806776,
+            "consume_pc_set": [
+                "0x2d7c"
+            ],
+            "irq_pc": 5748,
+            "avail_pc": 8960,
+            "rx_head": 536805908,
+            "rx_tail": 536805904,
+            "buffer_len": 64,
+            "buffer_min_len": 1,
+            "consume_count": 0
+        },
+        "7948": {
+            "dr": 1074786388,
+            "callread_pc": 7948,
+            "read_pc": 7950,
+            "buffer_addr": null,
+            "consume_pc_set": [],
+            "irq_pc": null,
+            "avail_pc": 7948,
+            "rx_head": null,
+            "rx_tail": null,
+            "buffer_len": 0,
+            "buffer_min_len": null,
+            "consume_count": 0
+        },
+        "7950": {
+            "dr": 1074786580,
+            "callread_pc": 7950,
+            "read_pc": 7950,
+            "buffer_addr": null,
+            "consume_pc_set": [],
+            "irq_pc": null,
+            "avail_pc": 7950,
+            "rx_head": null,
+            "rx_tail": null,
+            "buffer_len": 0,
+            "buffer_min_len": null,
+            "consume_count": 0
+        }
+    },
+    "consume_dt_dict": {
+        "11644": {
+            "dr": 1074176007,
+            "callread_pc": 8986,
+            "read_pc": 8948,
+            "buffer_addr": 536806776,
+            "consume_pc_set": [
+                "0x2d7c"
+            ],
+            "irq_pc": 5748,
+            "avail_pc": 8960,
+            "rx_head": 536805908,
+            "rx_tail": 536805904,
+            "buffer_len": 64,
+            "buffer_min_len": 1,
+            "consume_count": 0
+        }
+    }
+}

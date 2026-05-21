@@ -1,0 +1,53 @@
+{
+	"main_dt_set": [{
+		"dr": 1073763344,
+		"callread_pc": 134230406,
+		"read_pc": 134230406,
+		"buffer_addr": null,
+		"consume_pc_set": ["0x8003140"],
+		"irq_pc": null,
+		"avail_pc": 134230406,
+		"rx_head": null,
+		"rx_tail": null,
+		"buffer_len": 0,
+		"buffer_min_len": null,
+		"consume_count": 0
+	}],
+	"irq_dt_set": [],
+	"dt_created_dr": [1073763344],
+	"blacklist": [],
+	"indirect_src_addrs": {},
+	"data_regs": [1073760260, 1073761284, 1073821700, 1073759236, 1073815560, 1073814536, 1073813512, 1073812488, 1073815564, 1073814540, 1073813516, 1073812492, 1073811464, 1073811468, 1073810440, 1073809420, 1073905684, 1073763344, 1073764368, 1073762308, 1073810444, 1073757196, 1073819660, 1073822796, 1073816652, 1073817676, 1073809416, 1073756172],
+	"avail_dt_dict": {
+		"134230406": {
+			"dr": 1073763344,
+			"callread_pc": 134230406,
+			"read_pc": 134230406,
+			"buffer_addr": null,
+			"consume_pc_set": ["0x8003140"],
+			"irq_pc": null,
+			"avail_pc": 134230406,
+			"rx_head": null,
+			"rx_tail": null,
+			"buffer_len": 0,
+			"buffer_min_len": null,
+			"consume_count": 0
+		}
+	},
+	"consume_dt_dict": {
+		"134230336": {
+			"dr": 1073763344,
+			"callread_pc": 134230406,
+			"read_pc": 134230406,
+			"buffer_addr": null,
+			"consume_pc_set": ["0x8003140"],
+			"irq_pc": null,
+			"avail_pc": 134230406,
+			"rx_head": null,
+			"rx_tail": null,
+			"buffer_len": 0,
+			"buffer_min_len": null,
+			"consume_count": 0
+		}
+	}
+}

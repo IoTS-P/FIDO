@@ -1,0 +1,63 @@
+{
+    "main_dt_set": [],
+    "irq_dt_set": [
+        {
+            "dr": 1073759268,
+            "callread_pc": 134227900,
+            "read_pc": 134227900,
+            "buffer_addr": 536873417,
+            "consume_pc_set": [
+                "0x8000ca6"
+            ],
+            "irq_pc": 55,
+            "avail_pc": 134220966,
+            "rx_head": 0,
+            "rx_tail": 0,
+            "buffer_len": 100,
+            "buffer_min_len": 20,
+            "consume_count": 0
+        }
+    ],
+    "dt_created_dr": [
+        1073759268
+    ],
+    "blacklist": [],
+    "indirect_src_addrs": {},
+    "data_regs": [],
+    "avail_dt_dict": {
+        "134220966": {
+            "dr": 1073759268,
+            "callread_pc": 134227900,
+            "read_pc": 134227900,
+            "buffer_addr": 536873417,
+            "consume_pc_set": [
+                "0x8000ca6"
+            ],
+            "irq_pc": 55,
+            "avail_pc": 134220966,
+            "rx_head": 0,
+            "rx_tail": 0,
+            "buffer_len": 100,
+            "buffer_min_len": 20,
+            "consume_count": 0
+        }
+    },
+    "consume_dt_dict": {
+        "134220966": {
+            "dr": 1073759268,
+            "callread_pc": 134227900,
+            "read_pc": 134227900,
+            "buffer_addr": 536873417,
+            "consume_pc_set": [
+                "0x8000ca6"
+            ],
+            "irq_pc": 55,
+            "avail_pc": 134220966,
+            "rx_head": 0,
+            "rx_tail": 0,
+            "buffer_len": 100,
+            "buffer_min_len": 20,
+            "consume_count": 0
+        }
+    }
+}

@@ -32,7 +32,7 @@ This work addresses these gaps by introducing FIDO, an add-on tool designed to i
 ├── FIDO-Dynamic-Components          # source code of Dynamic extraction of R, buffer_len inference, and fuzzer integration 
 |    ├── MultiFuzz                   # MultiFuzz integrated with FIDO
 |    ├── Fuzzware                    # Fuzzware integrated with FIDO
-|    └── SEmu                        # SEmu-Fuzz integrated with FIDO
+|    └── SEmu-Fuzz                   # SEmu-Fuzz integrated with FIDO
 ├── Experiment 
 |    ├── Unit_test_samples           # Samples for generality study
 |    ├── Fuzzing                     # Fuzzing data, seeds, configuration comparisons (rr+rr, rr+fuzz, fuzz+fuzz) 
@@ -40,9 +40,10 @@ This work addresses these gaps by introducing FIDO, an add-on tool designed to i
 |    |    ├── example_config         # Configuration examples
 |    |    ├── MultiFuzz              # Firmware for running with MultiFuzz 
 |    |    ├── Fuzzware               # Firmware for running with Fuzzware
-|    |    └── SEmu                   # Firmware for running with SEmu-Fuzz 
+|    |    └── SEmu-Fuzz              # Firmware for running with SEmu-Fuzz 
 |    ├── Bug Report                  # Discovered 0-day reports 
 |    └── Other                       # Experiments on special hooks or input length waste 
+└── LICENSE
 └── README.md                        # Usage instructions
 ```
 
