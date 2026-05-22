@@ -1,0 +1,24 @@
+entry_point: 0x80bfd
+fork_points:
+- 0x815e0
+- 0x81276
+include:
+- ./syms.yml
+- ../../../../../../.local/lib/python3.10/site-packages/semu_fuzz/helper/configs/hw/cortexm_memory.yml
+initial_sp: 0x20088000
+isr_vector: 0x80bfd
+memory_map:
+  flash:
+    base_addr: 0x80000
+    file: Steering_Control.bin
+    permissions: r-x
+    size: 0x2000000
+rules: ../../../../RuleExtraction/extractedRules/sam3x.txt
+snapshot_load_enable: 0
+snapshot_record_enable: 0
+snapshot_load_path: /home/liyuweiheng/fuzz_snapshots/Steering_Control_snapshot
+snapshot_record_address: 0x80324
+ghidra_config:
+  port: 10509
+  binary_file: /home/liyuweiheng/fuzzers/SEmu/DataSet/fuzz_tests/sam3x/Steering_Control/Steering_Control.elf
+  debug_file_path: /tmp/debug_Steering_Control_10109.log

@@ -1,0 +1,82 @@
+{
+    "main_dt_set": [],
+    "irq_dt_set": [
+        {
+            "dr": "0x400e0818",
+            "callread_pc": "0x801de",
+            "read_pc": "0x81448",
+            "buffer_addr": "0x20070b80",
+            "consume_pc_set": [
+                "0x000801e4"
+            ],
+            "irq_pc": "0x80abc",
+            "avail_pc": "0x8043a",
+            "rx_head": "0x20070c00",
+            "rx_tail": "0x20070c04",
+            "buffer_len": 127,
+            "buffer_min_len": 8,
+            "consume_count": 0
+        }
+    ],
+    "dt_created_dr": [
+        "0x400e0818"
+    ],
+    "blacklist": [
+        "0x80184",
+        "0x802ce"
+    ],
+    "indirect_src_addrs": [
+        "0x84288",
+        "0x83a8a",
+        "0x8108c",
+        "0x83f92",
+        "0x8409a",
+        "0x81122",
+        "0x845a8",
+        "0x81daa",
+        "0x80130",
+        "0x810b2",
+        "0x813be",
+        "0x83c40",
+        "0x845cc",
+        "0x83a56",
+        "0x8115a",
+        "0x841dc",
+        "0x814de",
+        "0x84668",
+        "0x810ea",
+        "0x839fc"
+    ],
+    "data_regs": [
+        "0x400c8020",
+        "0x40008008",
+        "0x4000c008",
+        "0x4000800c",
+        "0x4000c00c",
+        "0x400c0050",
+        "0x4008c030",
+        "0x40090030",
+        "0x4008c034",
+        "0x40090034",
+        "0x400e081c"
+    ],
+    "avail_dt_dict": {
+        "0x8043a": {
+            "dr": "0x400e0818",
+            "callread_pc": "0x801de",
+            "read_pc": "0x81448",
+            "buffer_addr": "0x20070b80",
+            "consume_pc_set": [
+                "0x000801e4"
+            ],
+            "irq_pc": "0x80abc",
+            "avail_pc": "0x8043a",
+            "rx_head": "0x20070c00",
+            "rx_tail": "0x20070c04",
+            "buffer_len": 127,
+            "buffer_min_len": 8,
+            "consume_count": 0
+        }
+    },
+    "consume_dt_dict": {}
+}

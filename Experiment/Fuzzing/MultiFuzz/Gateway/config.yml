@@ -1,0 +1,49 @@
+#include:
+#  - ./syms.yml
+
+interrupt_triggers:
+  trigger:
+    every_nth_tick: 0x3e8
+    fuzz_mode: round_robin
+
+adapter:
+  0x80022fc:
+    irq_addr: 0x8008818
+    adapter_addr: 0x80022fc
+    min_len: 0x4
+    max_len: 0x40
+  0x8001bf0:
+    irq_addr: 0x800809c
+    adapter_addr: 0x8001bf0
+    min_len: 0x4
+    max_len: 0x80
+  0x8001be0:
+    irq_addr: 256
+    adapter_addr: 0x8001be0
+    min_len: 0x4
+    max_len: 0x80
+  0x8001c76:
+    irq_addr: 256
+    adapter_addr: 0x8001c76
+    min_len: 0x4
+    max_len: 0x80
+  0x8001c82:
+    irq_addr: 256
+    adapter_addr: 0x8001c82
+    min_len: 0x4
+    max_len: 0x80
+
+memory_map:
+  mmio: {base_addr:  0x40000000, size: 0x20000000, permissions: rw-}
+  nvic: {base_addr:  0xe0000000, size: 0x10000000, permissions: rw-}
+  irq_ret: {base_addr: 0xfffff000, size: 0x1000, permissions: --x}
+
+  ram:
+    base_addr: 0x20000000
+    permissions: rw-
+    size: 0x40000
+  text:
+    base_addr: 0x8000000
+    file: Gateway.bin
+    permissions: r-x
+    size: 0xB000

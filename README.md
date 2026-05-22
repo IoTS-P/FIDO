@@ -57,6 +57,12 @@ Content of this repository is licensed under GPL-3.0. See [LICENSE](./LICENSE).
 
 FIDO is built on top of the source code of three fuzzing tools, with modifications and additions. Deployment follows the same procedure as the original tools.  
 
+Some components are added as Git submodules. You must initialize and update submodules before running the tools:
+
+```bash
+git submodule update --init --recursive
+```
+
 - To install each tool, first enter its corresponding directory under `FIDO-Dynamic-Components`, then follow the installation instructions provided by the original repository:
 
 - Refer to **SEmu-Fuzz** repository: [SEmu-Fuzz](https://github.com/IoTS-P/SEmu-Fuzz)  

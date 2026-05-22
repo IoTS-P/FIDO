@@ -1,0 +1,513 @@
+0%s: Sending CAN data...
+Cannot send CAN message (%d)
+No CANBUS network interface found!
+Cannot create %s CAN socket (%d)
+Cannot bind %s CAN socket (%d)
+Cannot set CAN sockopt (%d)
+Cannot create TX thread!
+%s: Started socket CAN TX thread
+1st RX fd %d
+Cannot start CAN application (%d)
+%s: [%d] Waiting CAN data...
+[%d] Cannot receive CAN message (%d)
+[%d] CAN msg: type 0x%x RTR 0x%x EID 0x%x DLC 0x%x
+Data
+[%d] EXT Remote message received
+net_socket_can_sample
+setup_socket
+0123456789abcdef
+%s:
+[%08lu]
+[%02d:%02d:%02d.%03d,%03d]
+<%s>
+%02x
+[1;31m
+[1;33m
+enabled
+disabled
+	- Status: %s
+	- ID: %d
+Logs are halted!
+module_name
+%-40s | current | built-in
+----------------------------------------------------------
+%-40s | %-7s | %s
+Invalid backend: %s
+Shell log backend not initialized.
+Backend not active.
+%s: level set to %s.
+%s: unknown source name.
+Invalid severity: %s
+Commands for controlling logger
+Logger backends commands.
+disable
+'log disable <module_0> .. <module_n>' disables logs in specified modules (all if no modules specified).
+enable
+'log enable <level> <module_0> ...  <module_n>' enables logs up to given level in specified modules (all if no modules specified).
+Resume logging
+halt
+Halt logging
+list_backends
+Lists logger backends.
+Logger status
+none
+Zephyr version %d.%d.%d
+Uptime: %u ms
+Scheduler: %u since last call
+Threads:
+%p IRQ %02d     (real size %zu):	unused %zu	usage %zu / %zu (%zu %%)
+%s%p %-10s
+	options: 0x%x, priority: %d timeout: %d
+	state: %s
+Unable to determine unused stack size (%d)
+	stack size %zu, unused %zu, usage %zu / %zu (%u %%)
+cycles: %u hw cycles
+%p %-10s (real size %u):	unused %u	usage %u / %u (%u %%)
+kernel
+Kernel commands
+Kernel cycles.
+stacks
+List threads stack usage.
+threads
+List kernel threads.
+uptime
+Kernel uptime.
+version
+Kernel version.
+devices:
+- %s
+- %s
+POST_KERNEL:
+- None
+APPLICATION:
+PRE KERNEL 1:
+PRE KERNEL 2:
+device
+Device commands
+List configured devices by levels
+list
+List configured devices
+not terminated: %c
+--help
+Please specify a subcommand.
+Error: requested multiple function executions
+: command not found
+%s: wrong parameter count
+%s%s
+Shell thread error: %d
+%08X:
+[%d%c
+UART_2
+RX ring buffer full.
+shell.shell_uart
+shell_uart_backend
+uart:~$
+Subcommands:
+%s%-*s%s:
+Lost logs: %u
+Please press the <Tab> button to see all available commands.
+You can also use the <Tab> button to prompt or auto-complete all commands or its subcommands.
+You can try to call commands with <-h> or <--help> parameter for more information.
+Shell supports following meta-keys:
+Ctrl+a, Ctrl+b, Ctrl+c, Ctrl+d, Ctrl+e, Ctrl+f, Ctrl+k, Ctrl+l, Ctrl+n, Ctrl+p, Ctrl+u, Ctrl+w
+Alt+b, Alt+f.
+Please refer to shell documentation for more details.
+[%3d] %s
+%s:%s%s
+ unknown parameter:
+Echo status: %s
+No response from the terminal, assumed 80x24 screen size
+resize
+Console gets terminal screen size or assumes default in case the readout fails. It must be executed after each terminal width change to ensure correct text display.
+history
+Command history.
+Prints help message.
+Useful, not Unix-like shell commands.
+clear
+Clear screen.
+default
+Assume 80 chars screen width and send this setting to the terminal.
+backspace_mode
+Toggle backspace key mode.
+Some terminals are not sending separate escape code for backspace and delete button. This command forces shell to interpret delete key as backspace.
+colors
+Toggle colored syntax.
+echo
+Toggle shell echo.
+stats
+Shell statistics.
+backspace
+Set different escape code for backspace and delete key.
+delete
+Set the same escape code for backspace and delete key.
+reset
+Reset shell statistics for the Logger module.
+show
+Get shell statistics for the Logger module.
+Disable shell echo. Editing keys and meta-keys are not handled
+Enable shell echo.
+Disable colored syntax.
+Enable colored syntax.
+[?3l
+Command buffer is too short to expand all commands matching wildcard pattern: %s
+EAI_SYSTEM
+EAI_MEMORY
+EAI_SERVICE
+EAI_NODATA
+EAI_FAIL
+EAI_AGAIN
+EAI_NONAME
+EAI_BADFLAGS
+net_sock_addr
+%s: (%s): ctx=%p, pkt=%p, st=%d, user_data=%p
+%s: (%s): Marked socket %p as peer-closed
+%s: (%s): Set EOF flag on pkt %p
+invalid access on sock %d by thread %p
+%s: (%s): parent=%p, ctx=%p, st=%d
+%s: (%s): socket: ctx=%p, fd=%d
+%s: (%s): discarding ctx %p
+%s: (%s): discarding pkt %p
+%s: (%s): close: ctx=%p, fd=%d
+%s: (%s): accept: ctx=%p, fd=%d
+%s: (%s): NULL return from fifo
+net_sock
+zsock_flush_queue
+zsock_socket_internal
+z_impl_zsock_close
+zsock_accepted_cb
+zsock_received_cb
+zsock_accept_ctx
+zsock_recv_stream
+%s: (%s): Cannot detach net_context %p (%d)
+%s: (%s): [%d] ctx %p pkt %p st %d
+%s: (%s): Registering %d filters
+%s: (%s): Max %lu receivers
+%s: (%s): Unregistering %d filters
+%s: (%s): CAN destination address ignored
+net_sock_can
+zcan_received_cb
+zcan_sendto_ctx
+can_sock_ioctl_vmeth
+can_register_receiver
+can_register_filters
+can_unregister_filters
+stm32-exti
+((((((stm32-cc
+Msgq %p overflowed. Frame ID: 0x%x
+Workq buffer overflow. Msg ID: 0x%x
+can_driver
+%s: Message on filter index %d
+RX FIFO Overflow
+%s: Init CAN interface %p dev %p
+%s: Enable CAN1 IRQ
+%s: TX error from %s! error-code: %d
+socket_can_send
+%s: Cannot send socket CAN msg (%d)
+Failed to obtain RX buffer
+Failed to append RX data
+Failed call clock_control_get_rate: return [%d]
+HAL_CAN_Init failed: prescaler > max (%d > 1024)
+Prescaler is not a natural number! prescaler = clock_rate / ((PROP_SEG1 + SEG2 + 1) * bus_speed); prescaler = %d / ((%d + %d + 1) * %d)
+Failed to enter init mode
+Failed to leave init mode
+%s: Runtime configure of %s done
+%s: Init socket CAN device %p (%s) for dev %p (%s)
+extended
+standard
+%s: Sending %d bytes on %s. Id: 0x%x, ID type: %s, Remote Frame: %s
+DLC of %d exceeds maximum (%d)
+%s: Transmit buffer full
+%s: Using mailbox 0
+%s: Using mailbox 1
+%s: Using mailbox 2
+HAL_CAN_Init clock control on failed: %d
+Failed to exit sleep mode
+Init of %s done
+%s: Detatch filter number %d (index %d), type %d
+%s: Bank number %d is empty -> deakivate
+without
+with
+%s: Setting filter ID: 0x%x, mask: 0x%x
+%s: Filter type: %s ID %s mask (%d)
+No free filter bank found
+No space for a new filter!
+%s: Filter set! Filter number: %d (index %d)
+SOCKET_CAN_1
+can_stm32_rx_isr_handler
+can_stm32_runtime_configure
+can_stm32_send
+can_stm32_set_filter
+can_stm32_detach
+config_can_1_irq
+socket_can_iface_init
+tx_irq_callback
+socket_can_send
+socket_can_init_1
+|0x%-8x|%s|%s|%d|
+ 0x%02x
+
+unknown option %c
+ext
+Id invalid. %sid must not be negative or bigger than 0x%x
+Can't get binding to device "%s"
+Mask is not a number
+Mask invalid. %smask must not be negative or bigger than 0x%x
+Attach filter with ID 0x%x (%s id) and mask 0x%x  RTR: %d
+Can't attach, no free filter left
+Failed to attach filter [%d]
+Filter ID: %d
+filter_id is not a number
+filter_id must not be negative
+bitrate is not a number
+Failed to configure CAN controller [%d]
+Too many databytes. Max is %d
+Data bytes must be numbers
+A data bytes must not be > 0xFF
+Send frame with ID 0x%x (%s id) and %d data bytes
+Failed to send frame [%d]
+canbus
+CAN commands
+config
+Configure CAN controller.
+ Usage: config device_name [-sl] bitrate
+ -s Silent mode
+ -l Listen-only mode
+Send a CAN frame.
+ Usage: send device_name [-re] id [byte_1 byte_2 ...]
+ -r Remote transmission request
+ -e Extended address
+attach
+Attach a message filter and print those messages.
+ Usage: attach device_name [-re] id [mask [-r]]
+ -r Remote transmission request
+ -e Extended address
+detach
+Detach the filter and stop receiving those messages
+ Usage: detach device_name filter_id
+sys_clock
+r0/a1:  0x%08x  r1/a2:  0x%08x  r2/a3:  0x%08x
+r3/a4:  0x%08x r12/ip:  0x%08x r14/lr:  0x%08x
+ xpsr:  0x%08x
+Faulting instruction address (r15/pc): 0x%08x
+***** MPU FAULT *****
+  Stacking error (context area might be not valid)
+  Unstacking error
+  Data Access Violation
+  MMFAR Address: 0x%x
+  Instruction Access Violation
+  Floating-point lazy state preservation error
+***** BUS FAULT *****
+  Stacking error
+  Precise data bus error
+  BFAR Address: 0x%x
+  Imprecise data bus error
+  Instruction bus error
+***** USAGE FAULT *****
+  Division by zero
+  Unaligned memory access
+  No coprocessor instructions
+  Illegal load of EXC_RETURN into PC
+  Illegal use of the EPSR
+  Attempt to execute undefined instruction
+Reserved Exception (
+Spurious interrupt (IRQ
+SPSEL in thread mode does not indicate PSP
+***** HARD FAULT *****
+  Bus fault on vector table read
+  Fault escalation (see below)
+***** Debug monitor exception (not implemented) *****
+***** %s %d) *****
+Partition %u: sanity check failed.
+Failed to allocate new MPU region %u
+-+ #0
+FLASH_0
+SRAM_0
+net_buf
+net_core
+iface %p is down
+Iface %p driver API init NULL
+There is no network interface to work with!
+net_if
+AF_UNSPEC
+AF_INET
+AF_INET6
+AF_PACKET
+AF_CAN
+net_utils
+Cannot bind to interface index %d
+net_ctx
+Data buffer (%zd) allocation failed.
+tx_workq
+rx_workq
+net_tc
+Identical connection handler %p already found.
+Remote address family not set
+Local address family not set
+net_conn
+net_sockets_can
+CONFIG_WEBSOCKET_CLIENT
+Set %s to enable %s support.
+Websocket
+CONFIG_NET_VLAN
+CONFIG_NET_TCP and CONFIG_NET_NATIVE
+You need a network driver supporting Power Management.
+CONFIG_NET_STATISTICS
+statistics
+Type "kernel stacks" to see stack information.
+CONFIG_NET_ROUTE
+network route
+CONFIG_NET_L2_PPP and CONFIG_NET_PPP
+CONFIG_NET_L2_PPP
+IPv6 not enabled.
+IPv6 support                              : %s
+CONFIG_NET_GPTP
+gPTP
+DNS resolver not supported. Set CONFIG_DNS_RESOLVER to enable it.
+CONFIG_DNS_RESOLVER
+DNS resolver
+CONFIG_NET_DEBUG_NET_PKT_ALLOC
+net_pkt allocation
+Fragment length %d bytes
+Network buffer pools:
+Address		Total	Name
+%p	%d	RX
+%p	%d	TX
+%p	%d	RX DATA
+%p	%d	TX DATA
+CONFIG_NET_BUF_POOL_USAGE
+net_buf allocation
+Interface index is missing.
+Invalid index %s
+Invalid index %d
+No such interface in index %d
+Cannot take interface %d down (%d)
+Interface %d is down
+     Context   	Iface         Flags Local           	Remote
+No connections
+AF_UNK(%d)
+[%2d] %p	%p    %c%c%c   %16s	%16s
+CONFIG_NET_NATIVE, CONFIG_NET_ARP, CONFIG_NET_IPV4 and CONFIG_NET_L2_ETHERNET
+Invalid ptr value (%s). Example: 0x01020304
+net_pkt %p buffer chain:
+%p[%d]
+%p[%d/%u (%u)]
+net_pkt %p buffer chain hexdump:
+net_buf[%d] %p
+Pointer value must be given.
+==============
+<unknown type>
+CANBUS_RAW
+Interface %p (%s) [%d]
+===========================%s
+Interface is down.
+Link addr : %s
+MTU       : %d
+Interface %d is already up.
+Cannot take interface %d up (%d)
+Interface %d is up
+%s (%p)
+Networking commands
+allocs
+Print network memory allocations.
+Print information about IPv4 ARP cache.
+Print information about network connections.
+Show how DNS is configured.
+gptp
+Print information about gPTP support.
+iface
+Print information about network interfaces.
+ipv6
+Print information about IPv6 specific information and configuration.
+Print information about network memory usage.
+Print neighbor information.
+ping
+Ping a network host.
+net_pkt information.
+PPP information.
+resume
+Resume a network interface
+Show network route.
+Show network stacks information.
+Show network statistics.
+suspend
+Suspend a network interface
+Connect/send/close TCP connection.
+vlan
+Show VLAN information.
+websocket
+Print information about WebSocket connections.
+'net pkt [ptr in hex]' Print information about given net_pkt
+'net ping [-c count] [-i interval ms] [-I <iface index>] <host>' Send ICMPv4 or ICMPv6 Echo-Request to a network host.
+'net vlan add <tag> <index>' adds VLAN tag to the network interface.
+'net vlan del <tag>' deletes VLAN tag from the network interface.
+connect
+'net tcp connect <address> <port>' connects to TCP peer.
+'net tcp send <data>' sends data to peer using TCP.
+recv
+'net tcp recv' receives data using TCP.
+close
+'net tcp close' closes TCP connection.
+Show network statistics for all network interfaces.
+'net stats <index>' shows network statistics for one specific network interface.
+'net nbr rm <address>' removes neighbor from cache.
+'net ppp ping <index>' sends Echo-request to PPP interface.
+'net ppp status' prints information about PPP.
+'net iface up <index>' takes network interface up.
+'net iface down <index>' takes network interface down.
+'net iface <index>' shows network interface information.
+port
+'net gptp [<port>]' prints detailed information about gPTP port.
+cancel
+Cancel all pending requests.
+query
+'net dns <hostname> [A or AAAA]' queries IPv4 address (default) or IPv6 address for a host name.
+flush
+Remove all entries from ARP cache.
+net_shell
+GPIOH
+GPIOC
+GPIOB
+GPIOA
+Invalid channel (%d)
+Invalid combination of pulse and period cycles
+Could not initialize timer channel output
+Could not initialize clock (%d)
+Could not obtain timer clock (%d)
+Could not initialize timer
+PWM_2
+pwm_stm32
+PWM device not found
+failed to setup PWM (err %d)
+PWM shell commands
+<device> <pwm> <period in cycles> <pulse width in cycles> [flags]
+usec
+<device> <pwm> <period in usec> <pulse width in usec> [flags]
+nsec
+<device> <pwm> <period in nsec> <pulse width in nsec> [flags]
+Failed call clock_control_get_rate
+Invalid parity setting '%d'.Defaulting to 'none'.
+uart_stm32
+	Halting system
+Unknown error
+unknown
+>>> ZEPHYR FATAL ERROR %d: %s on CPU %d
+Fault during interrupt handling
+Current thread: %p (%s)
+CPU exception
+Unhandled interrupt
+Stack overflow
+Kernel oops
+Kernel panic
+zephyr-v2.3.0-857-g157f6f65d920
+*** Booting Zephyr OS build %s %s ***
+main
+idle %02d
+sysworkq
+pending
+prestart
+dead
+suspended
+dummy
+aborting
+queued
+workqueue

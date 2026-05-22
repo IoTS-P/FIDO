@@ -1,0 +1,24 @@
+entry_point: 0x800365d
+fork_points:
+- 0x8008f6a
+include:
+- ./syms.yml
+- ../../../../../../.local/lib/python3.10/site-packages/semu_fuzz/helper/configs/hw/cortexm_memory.yml
+initial_sp: 0x20005000
+isr_vector: 0x800365d
+memory_map:
+  flash:
+    base_addr: 0x8000000
+    file: Gateway.bin
+    permissions: r-x
+    size: 0x2000000
+rules: ../../../../RuleExtraction/extractedRules/f103.txt
+
+snapshot_load_enable: 0
+snapshot_record_enable: 0
+snapshot_load_path: /home/liyuweiheng/fuzz_snapshots/Gateway_snapshot
+snapshot_record_address: 0x8008f6a
+ghidra_config:
+  port: 10101
+  binary_file: /home/liyuweiheng/fuzzers/SEmu/DataSet/fuzz_tests/f103/Gateway/Gateway.elf
+  debug_file_path: /tmp/debug_gateway_10101.log

@@ -1,0 +1,25 @@
+entry_point: 0x80003a1
+fork_points:
+- 0x800303a
+handlers:
+  _Z5delaym: do_return
+include:
+- ./syms.yml
+- ../../../../../../.local/lib/python3.10/site-packages/semu_fuzz/helper/configs/hw/cortexm_memory.yml
+initial_sp: 0x20010000
+isr_vector: 0x80003a1
+memory_map:
+  flash:
+    base_addr: 0x8000000
+    file: uEmu.3Dprinter.bin
+    permissions: r-x
+    size: 0x2000000
+rules: ../../../../RuleExtraction/extractedRules/f103.txt
+snapshot_load_enable: 0
+snapshot_record_enable: 0
+snapshot_load_path: /home/liyuweiheng/fuzz_snapshots/uEmu.3Dprinter_snapshot
+snapshot_record_address: 0x800303a
+ghidra_config:
+  port: 10111
+  binary_file: /home/liyuweiheng/fuzzers/SEmu/DataSet/fuzz_tests/f103/uEmu.3Dprinter/uEmu.3Dprinter.elf
+  debug_file_path: /tmp/debug_uEmu.3Dprinter_10111.log

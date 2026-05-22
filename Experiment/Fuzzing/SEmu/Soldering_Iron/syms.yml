@@ -16,8 +16,6 @@ symbols:
   0x80002d0: _ZL28settings_displayAdvancedMenuv
   0x80002dc: _ZL26settings_enterAdvancedMenuv
   0x80002ec: _Z8gui_MenuPK8menuitem
-  0x8000478: jpt_8000472
-  0x80005a0: def_8000472
   0x80005dc: _Z17enterSettingsMenuv
   0x80005f0: _Z41__static_initialization_and_destruction_0ii
   0x80006d8: _GLOBAL__sub_I_rootSettingsMenu
@@ -26,8 +24,6 @@ symbols:
   0x80007a0: GPIOx
   0x80007a4: pData
   0x80007a8: _ZN4OLED8drawCharEcc
-  0x8000804: jpt_80007FE
-  0x800089a: def_80007FE
   0x80008a0: _ZN4OLED11setRotationEb
   0x8000930: _ZN4OLED5printEPKc
   0x8000980: _ZN4OLED7setFontEh
@@ -47,8 +43,6 @@ symbols:
   0x800122e: _ZN8FRToSI2C9Mem_WriteEtttPht
   0x80012f0: _ZN8FRToSI2C8TransmitEtPht
   0x8001388: _Z12startGUITaskPKv
-  0x8001484: jpt_8001480
-  0x800151a: def_8001480
   0x80017c8: str
   0x80017cc: ptr
   0x80017d8: _Z12startPIDTaskPKv
@@ -105,8 +99,6 @@ symbols:
   0x800297c: _ZL21settings_setCalibratev.lto_priv.30
   0x8002a44: _ZL25settings_displayCalibratev.lto_priv.31
   0x8002a54: _ZL24settings_setCalibrateVINv.lto_priv.32
-  0x8002af8: jpt_8002AF4
-  0x8002b5e: def_8002AF4
   0x8002bc0: _ZL11displayMenuj.lto_priv.64
   0x8002c18: _ZL28settings_displayCalibrateVINv.lto_priv.33
   0x8002c26: _ZL29settings_displaySolderingMenuv.lto_priv.59
@@ -148,17 +140,11 @@ symbols:
   0x8003570: _ZL19checkVoltageForExitv
   0x800364c: _ZL19gui_drawBatteryIconv.lto_priv.69
   0x80036cc: _ZL23gui_solderingTempAdjustv.lto_priv.71
-  0x8003720: jpt_800371A
-  0x80037fa: def_800371A
   0x800396c: _ZL3mintt
   0x8003994: _ZL25gui_SolderingSleepingModev
   0x8003be8: _ZL17display_countdowni
   0x8003c94: _ZL17gui_solderingModev.lto_priv.70
-  0x8003cfc: jpt_8003CF6
-  0x8003d86: def_8003CF6
   0x8004040: _Z11showVersionv
-  0x80040a4: jpt_800409E
-  0x8004194: def_800409E
   0x8004200: xQueueGiveFromISR
   0x8004314: xQueueGenericReceive
   0x800453c: prvCopyDataToQueue.lto_priv.92
@@ -297,19 +283,13 @@ symbols:
   0x80077d2: TIM_CCxChannelCmd
   0x8007814: HAL_TIM_IRQHandler
   0x8007a24: HAL_TIM_OC_ConfigChannel
-  0x8007a5c: jpt_8007A56
-  0x8007ac6: def_8007A56
   0x8007ae0: HAL_TIM_PWM_ConfigChannel
-  0x8007b18: jpt_8007B14
-  0x8007c4e: def_8007B14
   0x8007c68: HAL_TIM_ConfigClockSource
   0x8007e1c: HAL_TIM_PWM_Init
   0x8007e72: HAL_TIM_PWM_MspInit
   0x8007e84: HAL_TIM_PWM_Start
   0x8007ed4: HAL_TIM_PWM_Stop
   0x8007f6c: HAL_TIM_PWM_Start_IT
-  0x8007f84: jpt_8007F7E
-  0x8007ffe: def_8007F7E
   0x8008044: HAL_TIM_Base_Init
   0x800809a: HAL_TIM_Base_Start_IT
   0x80080ce: HAL_TIM_OC_Init

@@ -1,0 +1,3 @@
+found new channel,the dr is 0x40010c08
+found new channel,the dr is 0x40010c08
+found new channel,the dr is 0x40010c08

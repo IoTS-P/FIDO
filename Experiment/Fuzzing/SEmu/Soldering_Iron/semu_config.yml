@@ -1,0 +1,22 @@
+entry_point: 0x8000269
+fork_points: []
+include:
+- ./syms.yml
+- ../../../../../../.local/lib/python3.10/site-packages/semu_fuzz/helper/configs/hw/cortexm_memory.yml
+initial_sp: 0x20005000
+isr_vector: 0x8000269
+memory_map:
+  flash:
+    base_addr: 0x8000000
+    file: Soldering_Iron.bin
+    permissions: r-x
+    size: 0x2000000
+rules: ../../../../RuleExtraction/extractedRules/f103.txt
+snapshot_load_enable: 0
+snapshot_record_enable: 0
+snapshot_load_path: /home/liyuweiheng/fuzz_snapshots/Soldering_Iron_snapshot
+snapshot_record_address: 0x8000269
+ghidra_config:
+  port: 10103
+  binary_file: /home/liyuweiheng/fuzzers/SEmu/DataSet/fuzz_tests/f103/Soldering_Iron/Soldering_Iron.elf
+  debug_file_path: /tmp/debug_Soldering_Iron_10103.log
