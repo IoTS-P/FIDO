@@ -2,3 +2,11 @@
 	path = FIDO-Dynamic-Components/MultiFuzz
 	url = https://github.com/IoTS-P/MultiFuzz_adapter.git
 	branch = FIDO
+[submodule "FIDO-Dynamic-Components/Fuzzware"]
+	path = FIDO-Dynamic-Components/Fuzzware
+	url = https://github.com/IoTS-P/fuzzware-uFuzzAdapter.git
+	branch = adapter
+[submodule "FIDO-Dynamic-Components/SEmu"]
+	path = FIDO-Dynamic-Components/SEmu
+	url = https://github.com/IoTS-P/uFuzzAdapter.git
+	branch = dev
