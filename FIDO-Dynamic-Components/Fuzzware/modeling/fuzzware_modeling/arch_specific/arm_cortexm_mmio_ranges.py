@@ -1,8 +1,0 @@
-ARM_CORTEXM_MMIO_START = 0x40000000
-ARM_CORTEXM_MMIO_END   = 0x60000000
-
-""" MMIO Ranges """
-DEFAULT_MMIO_RANGES = (
-    # CortexM System register ranges
-    (0xE000E000, 0xE000F004),
-)

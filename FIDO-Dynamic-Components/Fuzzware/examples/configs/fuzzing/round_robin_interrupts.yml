@@ -1,4 +1,0 @@
-interrupt_triggers:
-  time_based_round_robin:
-    fuzz_mode: round_robin
-    every_nth_tick: 1000
