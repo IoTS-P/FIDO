@@ -13,7 +13,7 @@ This work addresses these gaps by introducing FIDO, an add-on tool designed to i
 ## Citing our paper
 
 ```bibtex
-@inproceedings{harm,
+@inproceedings{stop2026shen,
   title={Stop Starving or Stuffing Me: Boosting Firmware Fuzzing Efficiency with On-demand Input Delivery},
   author={Shen, Shandian and Zhou, Wei and Zhao, Keming and Liu, Peng and Kim, Chung Hwan and Guan, Le},
   booktitle={2026 IEEE Symposium on Security and Privacy (SP)},

@@ -1,0 +1,4 @@
+[submodule "FIDO-Dynamic-Components/MultiFuzz"]
+	path = FIDO-Dynamic-Components/MultiFuzz
+	url = https://github.com/IoTS-P/MultiFuzz_adapter.git
+	branch = FIDO
