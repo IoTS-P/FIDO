@@ -23,7 +23,12 @@ interrupt_triggers:
   idle_interrupt:
     addr: arch_cpu_idle
     fuzz_mode: fuzzed
-
+adapter:
+  0x18ac:
+    irq_addr: 18
+    adapter_addr: 0x18ac
+    min_len: 0x1
+    max_len: 0x1
 memory_map:
   dynamically_added_crash_region_10000130:
     base_addr: 0xfffb000

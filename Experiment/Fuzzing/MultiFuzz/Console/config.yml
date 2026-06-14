@@ -7,9 +7,9 @@ interrupt_triggers:
     fuzz_mode: round_robin
 
 adapter:
-  0x230:
+  0x2300:
     irq_addr: 0x1674
-    adapter_addr: 0x230
+    adapter_addr: 0x2300
     min_len: 0x1
     max_len: 0x40
 
